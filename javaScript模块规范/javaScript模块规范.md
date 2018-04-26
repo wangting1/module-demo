@@ -16,7 +16,7 @@ module.exports=function(){
 CMD也是一个规范：是 SeaJS 在推广过程中对模块定义的规范化产出。[https://github.com/seajs/seajs/issues/242](https://github.com/seajs/seajs/issues/242)
 exports 仅仅是 module.exports 的一个引用。在 factory 内部给 exports 重新赋值时，并不会改变 module.exports 的值。因此给 exports 赋值是无效的，不能用来更改模块接口。
 
-![https://s17.mogucdn.com/mlcdn/c45406/180411_35d9il9ch6e1gc6gb97bebj5gejk4_1407x577.jpg](前端模块规范)
+![前端模块规范](./js.jpg)
 
 - UMD:从上图可以看出如果用CommonJS写的模块用在AMD的项目中是不行的，为了让AMD和CommonJS和谐共处，并支持global变量的形式，出现了UMD模式
 
