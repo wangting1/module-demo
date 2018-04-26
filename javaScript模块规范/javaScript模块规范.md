@@ -13,7 +13,7 @@ module.exports=function(){
 }
 ```
 
-CMD也是一个规范：是 SeaJS 在推广过程中对模块定义的规范化产出。[https://github.com/seajs/seajs/issues/242](https://github.com/seajs/seajs/issues/242)
+- CMD也是一个规范：是 SeaJS 在推广过程中对模块定义的规范化产出。[https://github.com/seajs/seajs/issues/242](https://github.com/seajs/seajs/issues/242)
 exports 仅仅是 module.exports 的一个引用。在 factory 内部给 exports 重新赋值时，并不会改变 module.exports 的值。因此给 exports 赋值是无效的，不能用来更改模块接口。
 
 ![前端模块规范](./js.jpg)
