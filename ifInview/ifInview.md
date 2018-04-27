@@ -1,6 +1,7 @@
 ## 是否在可视区的不同尝试
 ### 1.getBoundingClientRect()
 - 1.1 ele.getBoundingClientRect()获取得到的是ele元素相对于浏览器可见视口的上下左右的距离，盗用网上的两张图可以非常形象的看一下：
+
   ![getBoundingClientRect()得到的left,top,bottom,right](./imgs/all.jpg)
   ![ele元素部分在可视区部分已经滚动到可视区外的时候](./imgs/top.jpg)
 - 在不用考虑IE浏览器的移动端需求还是可以考虑用这个函数的。
